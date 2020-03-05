@@ -1,0 +1,28 @@
+td,tr{
+    
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.main{
+    width: 60%;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.flex-box-1 , .flex-box-2{
+    padding: 5px;
+    display: flexbox;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+select{
+    width: 100%;
+}
