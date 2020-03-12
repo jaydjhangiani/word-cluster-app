@@ -15,14 +15,36 @@ table{
     padding: 10px;
 }
 
-.flex-box-1 , .flex-box-2{
+.flex-box-1{
     padding: 5px;
     display: flexbox;
-    margin: 0 auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.main{
+    margin: auto;
+}
+
+button{
+    width: 100%;
 }
 
 select{
     width: 100%;
+}
+
+.right{
+    border: 2px solid green;
+    border-radius: 3px;	
+}
+
+.wrong{
+    border: 2px solid red;
+    border-radius: 3px;	
+}
+
+input{
+    border-radius: 3px;
 }
